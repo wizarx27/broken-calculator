@@ -1,0 +1,68 @@
+.outer-box{
+  width: 600px;
+  height: 800px;
+  border: 2px solid black
+}
+
+.inner-box-screen{
+  width: 90%;
+  height: 20%;
+  border: 1px solid black;
+  padding: 0.5rem;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  
+}
+.inner-box-screen > div{
+  flex-grow: 1;
+  
+}
+
+.inner-box-button-cont{
+  width: 90%;
+  height: 70%;
+  border: 1px solid black;
+  padding: 0.5rem;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  font-size: 20px;
+}
+.inner-box-button-cont button{
+  font-size: 20px;
+}
+
+.number-container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 40%;
+}
+
+.number-box{
+  width: 30%;
+  margin: 5px 5px;
+}
+
+.equation-container{
+  display: flex;
+  height: 40%;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+}
+
+.equation-btn{
+  width: 60%;
+  margin: 2px 5px;
+}
+
+
+.history-view{
+  overflow-y: auto;
+}
+
+.history-inner{
+  padding-right: 25px;
+  text-align: right;
+}
